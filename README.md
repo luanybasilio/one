@@ -1,2 +1,2 @@
 # one repository
-first!
+first! doc: readme

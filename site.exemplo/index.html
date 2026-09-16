@@ -1,68 +1,456 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Minha página</title>
+    <title>Minha página de testes</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    
+
+
 <body>
+    <!-- CABEÇALHO -->
+     
+    <header>
 
-    <h1>Minha página</h1>
+        <h1>Minha página de testes</h1>
 
-    <p>Estou praticando HTML e CSS.</p>
+        <p>Estou praticando HTML e CSS.</p>
 
-    <h2>Minha lista</h2>
+        <!-- MENU -->
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#artigos">Artigos</a>
+            <a href="#lista">Lista</a>
+            <a href="#tabela">Tabela</a>
+            <a href="#formulario">Formulário</a>
+        </nav>
 
-    
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-
-
-    <h2>Minha tabela</h2>
-    <table border="1">
-
-        <tr>
-            <th>Nome</th>
-            <th>Nota</th>
-        </tr>
-
-        <tr>
-            <td>Luany</td>
-            <td>9</td>
-        </tr>
-
-        <tr>
-            <td>Ana</td>
-            <td>8</td>
-        </tr>
-
-    </table>
+    </header>
 
 
-    <h2>Meu formulário</h2>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main id="inicio">
 
-    <form>
+        <!-- SEÇÃO DE APRESENTAÇÃO -->
+        <section>
 
-        <label>Nome:</label>
-        <input type="text">
+            <h2>Bem-vinda à minha página!</h2>
 
-        <br><br>
+            <p>
+                Esta página foi criada para eu praticar
+                <strong>HTML</strong> e <strong>CSS</strong>.
+            </p>
 
-        <label>Email:</label>
-        <input type="email">
+            <p>
+                Aqui estou testando diferentes elementos
+                que fazem parte de uma página web.
+            </p>
 
-        <br><br>
+        </section>
 
-        <button type="submit">Enviar!!</button>
 
-    </form>
+        <!-- SEÇÃO SOBRE -->
+        <section id="sobre">
 
+            <h2>Sobre esta página</h2>
+
+            <p>
+                Estou aprendendo a criar páginas utilizando
+                HTML para estruturar o conteúdo e CSS para
+                cuidar da aparência.
+            </p>
+
+            <p>
+                Também pretendo aprender JavaScript para
+                adicionar <em>comportamentos</em> à página.
+            </p>
+
+        </section>
+
+
+        <!-- ARTIGOS -->
+        <section id="artigos">
+
+            <h2>Meus artigos</h2>
+
+            <article>
+
+                <h3>O que é HTML?</h3>
+
+                <p>
+                    HTML é utilizado para estruturar o conteúdo
+                    de uma página web.
+                </p>
+
+                <a href="https://www.w3.org/">
+                    Saiba mais sobre HTML
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>O que é CSS?</h3>
+
+                <p>
+                    CSS é utilizado para definir a aparência
+                    e o estilo dos elementos de uma página.
+                </p>
+
+                <a href="https://developer.mozilla.org/">
+                    Saiba mais sobre desenvolvimento web
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>Por que aprender programação?</h3>
+
+                <p>
+                    Programação permite criar sites, sistemas,
+                    aplicativos e muitas outras soluções.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- DIV 1 -->
+        <div>
+
+            <h2>Meu primeiro DIV</h2>
+
+            <p>
+                Este conteúdo está dentro de uma div.
+            </p>
+
+            <p>
+                A div é um elemento genérico utilizado
+                para agrupar outros elementos.
+            </p>
+
+        </div>
+
+
+        <!-- DIV 2 -->
+        <div>
+
+            <h2>Meu segundo DIV</h2>
+
+            <p>
+                Este é outro bloco criado utilizando uma div.
+            </p>
+
+            <p>
+                Depois podemos usar CSS para estilizar
+                cada bloco separadamente.
+            </p>
+
+        </div>
+
+
+        <!-- IMAGEM -->
+        <section>
+
+            <h2>Minha imagem</h2>
+
+            <figure>
+
+                <img
+                    src="https://via.placeholder.com/300"
+                    alt="Imagem de exemplo">
+
+                <figcaption>
+                    Imagem utilizada para praticar HTML.
+                </figcaption>
+
+            </figure>
+
+        </section>
+
+
+        <!-- LISTA -->
+        <section id="lista">
+
+            <h2>Minha lista</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+
+            <h3>Minha lista ordenada</h3>
+
+            <ol>
+                <li>Estudar HTML</li>
+                <li>Estudar CSS</li>
+                <li>Estudar JavaScript</li>
+            </ol>
+
+        </section>
+
+
+        <!-- OUTROS ELEMENTOS DE TEXTO -->
+        <section>
+
+            <h2>Outros elementos</h2>
+
+            <p>
+                Este texto possui uma parte
+                <strong>importante</strong>
+                e outra parte em <em>ênfase</em>.
+            </p>
+
+            <p>
+                Podemos destacar uma informação:
+                <mark>HTML é uma linguagem de marcação.</mark>
+            </p>
+
+            <p>
+                Exemplo de código:
+                <code>&lt;h1&gt;Olá!&lt;/h1&gt;</code>
+            </p>
+
+            <blockquote>
+                Este é um exemplo de uma citação utilizando
+                o elemento blockquote.
+            </blockquote>
+
+        </section>
+
+
+        <!-- TABELA -->
+        <section id="tabela">
+
+            <h2>Minha tabela</h2>
+
+            <table border="1">
+
+                <caption>
+                    Notas dos alunos
+                </caption>
+
+                <thead>
+
+                    <tr>
+                        <th>Nome</th>
+                        <th>Nota</th>
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+                        <td>Luany</td>
+                        <td>9</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ana</td>
+                        <td>8</td>
+                    </tr>
+
+                    <tr>
+                        <td>Diego</td>
+                        <td>10</td>
+                    </tr>
+
+                </tbody>
+
+
+                <tfoot>
+
+                    <tr>
+                        <td>Média</td>
+                        <td>9</td>
+                    </tr>
+
+                </tfoot>
+
+            </table>
+
+        </section>
+
+
+        <!-- FORMULÁRIO -->
+        <section id="formulario">
+
+            <h2>Meu formulário</h2>
+
+            <form>
+
+                <fieldset>
+
+                    <legend>Informações pessoais</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite seu nome"
+                        required>
+
+                    <br><br>
+
+
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Digite seu email"
+                        required>
+
+                    <br><br>
+
+
+                    <label for="data">Data de nascimento:</label>
+                    <input
+                        type="date"
+                        id="data"
+                        name="data">
+
+                    <br><br>
+
+
+                    <label for="mensagem">Mensagem:</label>
+
+                    <br>
+
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="5"
+                        cols="30"
+                        placeholder="Digite sua mensagem">
+                    </textarea>
+
+                    <br><br>
+
+
+                    <label for="curso">Escolha seu curso:</label>
+
+                    <select id="curso" name="curso">
+
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="javascript">JavaScript</option>
+
+                    </select>
+
+                    <br><br>
+
+
+                    <p>Você gosta de programação?</p>
+
+                    <input
+                        type="radio"
+                        id="sim"
+                        name="programacao"
+                        value="sim">
+
+                    <label for="sim">Sim</label>
+
+
+                    <input
+                        type="radio"
+                        id="nao"
+                        name="programacao"
+                        value="nao">
+
+                    <label for="nao">Não</label>
+
+                    <br><br>
+
+
+                    <input
+                        type="checkbox"
+                        id="termos"
+                        name="termos">
+
+                    <label for="termos">
+                        Aceito os termos
+                    </label>
+
+                    <br><br>
+
+
+                    <button type="submit">
+                        Enviar!!
+                    </button>
+
+                    <button type="reset">
+                        Limpar
+                    </button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+
+        <!-- DETAILS -->
+        <section>
+
+            <h2>Pergunta frequente</h2>
+
+            <details>
+
+                <summary>
+                    O que estou aprendendo?
+                </summary>
+
+                <p>
+                    Estou aprendendo HTML, CSS e futuramente
+                    JavaScript.
+                </p>
+
+            </details>
+
+        </section>
+
+
+        <!-- ASIDE -->
+        <aside>
+
+            <h2>Curiosidade</h2>
+
+            <p>
+                HTML organiza o conteúdo da página,
+                CSS cuida da aparência e JavaScript
+                adiciona comportamentos.
+            </p>
+
+        </aside>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            Página criada por Luany para praticar programação.
+        </p>
+
+        <p>
+            &copy; 2026 Minha página
+        </p>
+
+    </footer>
 
 </body>
+
 </html>

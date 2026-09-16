@@ -8,6 +8,9 @@ h1 {
 
 p {
     background-color: yellow;
+    font-family: Arial;
+    font-size: larger;
+    color: purple;
 }
 
 h2 {
@@ -18,3 +21,4 @@ button {
     background-color: black;
     color: white;
 }
+
